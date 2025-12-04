@@ -33,7 +33,7 @@ export default defineConfig({
     screenshot: "only-on-failure",
 
     /* Run tests in headed mode */
-    headless: true,
+    headless: false,
   },
 
   /* Configure projects for major browsers */
