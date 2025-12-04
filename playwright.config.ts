@@ -33,7 +33,7 @@ export default defineConfig({
     screenshot: "only-on-failure",
 
     /* Run tests in headed mode */
-    headless: false,
+    headless: process.env.CI ? true : false,
   },
 
   /* Configure projects for major browsers */
